@@ -1,0 +1,794 @@
+/* The settled artwork is visible until its disclosure opens. */
+@media (prefers-reduced-motion: no-preference) {
+.motion-control[open] + .animation-art .motion-1 { animation: journal-1 4200ms linear both; }
+.motion-control[open] + .animation-art .motion-2 { animation: journal-2 4200ms linear both; }
+.motion-control[open] + .animation-art .motion-3 { animation: journal-3 4200ms linear both; }
+.motion-control[open] + .animation-art .motion-4 { animation: journal-2 4200ms linear both; }
+.motion-control[open] + .animation-art .motion-5 { animation: journal-4 4200ms linear both; }
+.motion-control[open] + .animation-art .motion-6 { animation: journal-2 4200ms linear both; }
+.motion-control[open] + .animation-art .motion-7 { animation: journal-5 4200ms linear both; }
+.motion-control[open] + .animation-art .motion-8 { animation: journal-2 4200ms linear both; }
+.motion-control[open] + .animation-art .motion-9 { animation: journal-6 4200ms linear both; }
+.motion-control[open] + .animation-art .motion-10 { animation: journal-2 4200ms linear both; }
+.motion-control[open] + .animation-art .motion-11 { animation: journal-7 4200ms linear both; }
+.motion-control[open] + .animation-art .motion-12 { animation: journal-8 4200ms linear both, journal-9 4200ms linear both; }
+.motion-control[open] + .animation-art .motion-13 { animation: journal-10 4800ms linear both; }
+.motion-control[open] + .animation-art .motion-14 { animation: journal-11 4800ms linear both; }
+.motion-control[open] + .animation-art .motion-15 { animation: journal-12 4800ms linear both; }
+.motion-control[open] + .animation-art .motion-16 { animation: journal-13 4800ms linear both; }
+.motion-control[open] + .animation-art .motion-17 { animation: journal-14 4200ms linear both; }
+.motion-control[open] + .animation-art .motion-18 { animation: journal-14 4200ms linear both; }
+.motion-control[open] + .animation-art .motion-19 { animation: journal-14 4200ms linear both; }
+.motion-control[open] + .animation-art .motion-20 { animation: journal-15 4200ms linear both; }
+.motion-control[open] + .animation-art .motion-21 { animation: journal-16 4200ms linear both; }
+.motion-control[open] + .animation-art .motion-22 { animation: journal-17 4100ms linear both; }
+.motion-control[open] + .animation-art .motion-23 { animation: journal-17 4100ms linear both; }
+.motion-control[open] + .animation-art .motion-24 { animation: journal-17 4100ms linear both; }
+.motion-control[open] + .animation-art .motion-25 { animation: journal-17 4100ms linear both; }
+.motion-control[open] + .animation-art .motion-26 { animation: journal-17 4100ms linear both; }
+.motion-control[open] + .animation-art .motion-27 { animation: journal-17 4100ms linear both; }
+.motion-control[open] + .animation-art .motion-28 { animation: journal-17 4100ms linear both; }
+.motion-control[open] + .animation-art .motion-29 { animation: journal-17 4100ms linear both; }
+.motion-control[open] + .animation-art .motion-30 { animation: journal-17 4100ms linear both; }
+.motion-control[open] + .animation-art .motion-31 { animation: journal-17 4100ms linear both; }
+.motion-control[open] + .animation-art .motion-32 { animation: journal-17 4100ms linear both; }
+.motion-control[open] + .animation-art .motion-33 { animation: journal-17 4100ms linear both; }
+.motion-control[open] + .animation-art .motion-34 { animation: journal-17 4100ms linear both; }
+.motion-control[open] + .animation-art .motion-35 { animation: journal-17 4100ms linear both; }
+.motion-control[open] + .animation-art .motion-36 { animation: journal-17 4100ms linear both; }
+.motion-control[open] + .animation-art .motion-37 { animation: journal-17 4100ms linear both; }
+.motion-control[open] + .animation-art .motion-38 { animation: journal-17 4100ms linear both; }
+.motion-control[open] + .animation-art .motion-39 { animation: journal-17 4100ms linear both; }
+.motion-control[open] + .animation-art .motion-40 { animation: journal-18 4100ms linear both; }
+.motion-control[open] + .animation-art .motion-41 { animation: journal-19 4100ms linear both; }
+.motion-control[open] + .animation-art .motion-42 { animation: journal-20 4100ms linear both; }
+.motion-control[open] + .animation-art .motion-43 { animation: journal-21 4100ms linear both; }
+.motion-control[open] + .animation-art .motion-44 { animation: journal-22 4100ms linear both; }
+.motion-control[open] + .animation-art .motion-45 { animation: journal-23 4500ms linear both; }
+.motion-control[open] + .animation-art .motion-46 { animation: journal-24 4500ms linear both; }
+.motion-control[open] + .animation-art .motion-47 { animation: journal-25 4500ms linear both; }
+.motion-control[open] + .animation-art .motion-48 { animation: journal-26 4600ms linear both, journal-27 4600ms linear both; }
+.motion-control[open] + .animation-art .motion-49 { animation: journal-28 4600ms linear both, journal-29 4600ms linear both; }
+.motion-control[open] + .animation-art .motion-50 { animation: journal-30 4600ms linear both; }
+.motion-control[open] + .animation-art .motion-51 { animation: journal-31 4500ms linear both; }
+.motion-control[open] + .animation-art .motion-52 { animation: journal-32 4500ms linear both, journal-33 4500ms linear both; }
+.motion-control[open] + .animation-art .motion-53 { animation: journal-34 4500ms linear both; }
+.motion-control[open] + .animation-art .motion-54 { animation: journal-35 4700ms linear both, journal-36 4700ms linear both; }
+.motion-control[open] + .animation-art .motion-55 { animation: journal-37 4700ms linear both, journal-38 4700ms linear both; }
+.motion-control[open] + .animation-art .motion-56 { animation: journal-39 4700ms linear both, journal-40 4700ms linear both; }
+.motion-control[open] + .animation-art .motion-57 { animation: journal-41 4700ms linear both; }
+.motion-control[open] + .animation-art .motion-58 { animation: journal-42 4700ms linear both, journal-43 4700ms linear both; }
+.motion-control[open] + .animation-art .motion-59 { animation: journal-44 4700ms linear both; }
+}
+
+@keyframes journal-1 {
+  0% { height: 655px; }
+  7.1429% { height: 655px; }
+  9.5238% { height: 653.0595px; }
+  11.9048% { height: 647.5202px; }
+  14.2857% { height: 638.8055px; }
+  16.6667% { height: 627.3388px; }
+  19.0476% { height: 613.5435px; }
+  21.4286% { height: 597.843px; }
+  23.8095% { height: 580.6606px; }
+  26.1905% { height: 562.4197px; }
+  28.5714% { height: 543.5438px; }
+  30.9524% { height: 524.4562px; }
+  33.3333% { height: 505.5803px; }
+  35.7143% { height: 487.3394px; }
+  38.0952% { height: 470.157px; }
+  40.4762% { height: 454.4565px; }
+  42.8571% { height: 440.6612px; }
+  45.2381% { height: 429.1945px; }
+  47.619% { height: 420.4798px; }
+  50% { height: 414.9405px; }
+  52.381% { height: 413px; }
+  100% { height: 413px; }
+}
+
+@keyframes journal-2 {
+  0% { opacity: 0.58; }
+  16.6667% { opacity: 0.58; }
+  19.0476% { opacity: 0.5631; }
+  21.4286% { opacity: 0.5174; }
+  23.8095% { opacity: 0.4502; }
+  26.1905% { opacity: 0.369; }
+  28.5714% { opacity: 0.2811; }
+  30.9524% { opacity: 0.194; }
+  33.3333% { opacity: 0.115; }
+  35.7143% { opacity: 0.0515; }
+  38.0952% { opacity: 0.011; }
+  40.4762% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+@keyframes journal-3 {
+  0% { d: path("M138 808L852 808"); }
+  7.1429% { d: path("M138 808L852 808"); }
+  9.5238% { d: path("M138 808L849.1373 808"); }
+  11.9048% { d: path("M138 808L840.9657 808"); }
+  14.2857% { d: path("M138 808L828.1098 808"); }
+  16.6667% { d: path("M138 808L811.1941 808"); }
+  19.0476% { d: path("M138 808L790.8431 808"); }
+  21.4286% { d: path("M138 808L767.6816 808"); }
+  23.8095% { d: path("M138 808L742.334 808"); }
+  26.1905% { d: path("M138 808L715.425 808"); }
+  28.5714% { d: path("M138 808L687.5791 808"); }
+  30.9524% { d: path("M138 808L659.4209 808"); }
+  33.3333% { d: path("M138 808L631.575 808"); }
+  35.7143% { d: path("M138 808L604.666 808"); }
+  38.0952% { d: path("M138 808L579.3184 808"); }
+  40.4762% { d: path("M138 808L556.1569 808"); }
+  42.8571% { d: path("M138 808L535.8059 808"); }
+  45.2381% { d: path("M138 808L518.8902 808"); }
+  47.619% { d: path("M138 808L506.0343 808"); }
+  50% { d: path("M138 808L497.8627 808"); }
+  52.381% { d: path("M138 808L495 808"); }
+  100% { d: path("M138 808L495 808"); }
+}
+
+@keyframes journal-4 {
+  0% { d: path("M138 905L763 905"); }
+  7.1429% { d: path("M138 905L763 905"); }
+  9.5238% { d: path("M138 904.6953L760.4942 904.6953"); }
+  11.9048% { d: path("M138 903.8255L753.3412 903.8255"); }
+  14.2857% { d: path("M138 902.4571L742.0877 902.4571"); }
+  16.6667% { d: path("M138 900.6565L727.2805 900.6565"); }
+  19.0476% { d: path("M138 898.4903L709.4663 898.4903"); }
+  21.4286% { d: path("M138 896.0249L689.1919 896.0249"); }
+  23.8095% { d: path("M138 893.3269L667.0039 893.3269"); }
+  26.1905% { d: path("M138 890.4626L643.449 890.4626"); }
+  28.5714% { d: path("M138 887.4986L619.0741 887.4986"); }
+  30.9524% { d: path("M138 884.5014L594.4259 884.5014"); }
+  33.3333% { d: path("M138 881.5374L570.051 881.5374"); }
+  35.7143% { d: path("M138 878.6731L546.4961 878.6731"); }
+  38.0952% { d: path("M138 875.9751L524.3081 875.9751"); }
+  40.4762% { d: path("M138 873.5097L504.0337 873.5097"); }
+  42.8571% { d: path("M138 871.3435L486.2195 871.3435"); }
+  45.2381% { d: path("M138 869.5429L471.4123 869.5429"); }
+  47.619% { d: path("M138 868.1745L460.1588 868.1745"); }
+  50% { d: path("M138 867.3047L453.0058 867.3047"); }
+  52.381% { d: path("M138 867L450.5 867"); }
+  100% { d: path("M138 867L450.5 867"); }
+}
+
+@keyframes journal-5 {
+  0% { d: path("M138 1002L816 1002"); }
+  7.1429% { d: path("M138 1002L816 1002"); }
+  9.5238% { d: path("M138 1001.3906L813.2817 1001.3906"); }
+  11.9048% { d: path("M138 999.651L805.5221 999.651"); }
+  14.2857% { d: path("M138 996.9141L793.3143 996.9141"); }
+  16.6667% { d: path("M138 993.313L777.2515 993.313"); }
+  19.0476% { d: path("M138 988.9806L757.9267 988.9806"); }
+  21.4286% { d: path("M138 984.0499L735.9329 984.0499"); }
+  23.8095% { d: path("M138 978.6537L711.8634 978.6537"); }
+  26.1905% { d: path("M138 972.9252L686.3111 972.9252"); }
+  28.5714% { d: path("M138 966.9972L659.8692 966.9972"); }
+  30.9524% { d: path("M138 961.0028L633.1308 961.0028"); }
+  33.3333% { d: path("M138 955.0748L606.6889 955.0748"); }
+  35.7143% { d: path("M138 949.3463L581.1366 949.3463"); }
+  38.0952% { d: path("M138 943.9501L557.0671 943.9501"); }
+  40.4762% { d: path("M138 939.0194L535.0733 939.0194"); }
+  42.8571% { d: path("M138 934.687L515.7485 934.687"); }
+  45.2381% { d: path("M138 931.0859L499.6857 931.0859"); }
+  47.619% { d: path("M138 928.349L487.4779 928.349"); }
+  50% { d: path("M138 926.6094L479.7183 926.6094"); }
+  52.381% { d: path("M138 926L477 926"); }
+  100% { d: path("M138 926L477 926"); }
+}
+
+@keyframes journal-6 {
+  0% { d: path("M138 1099L707 1099"); }
+  7.1429% { d: path("M138 1099L707 1099"); }
+  9.5238% { d: path("M138 1098.0859L704.7187 1098.0859"); }
+  11.9048% { d: path("M138 1095.4765L698.2066 1095.4765"); }
+  14.2857% { d: path("M138 1091.3712L687.9614 1091.3712"); }
+  16.6667% { d: path("M138 1085.9695L674.481 1085.9695"); }
+  19.0476% { d: path("M138 1079.4709L658.2629 1079.4709"); }
+  21.4286% { d: path("M138 1072.0748L639.8051 1072.0748"); }
+  23.8095% { d: path("M138 1063.9806L619.6051 1063.9806"); }
+  26.1905% { d: path("M138 1055.3878L598.1608 1055.3878"); }
+  28.5714% { d: path("M138 1046.4958L575.9699 1046.4958"); }
+  30.9524% { d: path("M138 1037.5042L553.5301 1037.5042"); }
+  33.3333% { d: path("M138 1028.6122L531.3392 1028.6122"); }
+  35.7143% { d: path("M138 1020.0194L509.8949 1020.0194"); }
+  38.0952% { d: path("M138 1011.9252L489.6949 1011.9252"); }
+  40.4762% { d: path("M138 1004.5291L471.2371 1004.5291"); }
+  42.8571% { d: path("M138 998.0305L455.019 998.0305"); }
+  45.2381% { d: path("M138 992.6288L441.5386 992.6288"); }
+  47.619% { d: path("M138 988.5235L431.2934 988.5235"); }
+  50% { d: path("M138 985.9141L424.7813 985.9141"); }
+  52.381% { d: path("M138 985L422.5 985"); }
+  100% { d: path("M138 985L422.5 985"); }
+}
+
+@keyframes journal-7 {
+  0% { d: path("M138 1196L623 1196"); }
+  7.1429% { d: path("M138 1196L623 1196"); }
+  9.5238% { d: path("M138 1194.7812L621.0555 1194.7812"); }
+  11.9048% { d: path("M138 1191.3019L615.5047 1191.3019"); }
+  14.2857% { d: path("M138 1185.8283L606.7721 1185.8283"); }
+  16.6667% { d: path("M138 1178.626L595.2817 1178.626"); }
+  19.0476% { d: path("M138 1169.9612L581.4579 1169.9612"); }
+  21.4286% { d: path("M138 1160.0997L565.7249 1160.0997"); }
+  23.8095% { d: path("M138 1149.3075L548.507 1149.3075"); }
+  26.1905% { d: path("M138 1137.8504L530.2285 1137.8504"); }
+  28.5714% { d: path("M138 1125.9945L511.3135 1125.9945"); }
+  30.9524% { d: path("M138 1114.0055L492.1865 1114.0055"); }
+  33.3333% { d: path("M138 1102.1496L473.2715 1102.1496"); }
+  35.7143% { d: path("M138 1090.6925L454.993 1090.6925"); }
+  38.0952% { d: path("M138 1079.9003L437.7751 1079.9003"); }
+  40.4762% { d: path("M138 1070.0388L422.0421 1070.0388"); }
+  42.8571% { d: path("M138 1061.374L408.2183 1061.374"); }
+  45.2381% { d: path("M138 1054.1717L396.7279 1054.1717"); }
+  47.619% { d: path("M138 1048.6981L387.9953 1048.6981"); }
+  50% { d: path("M138 1045.2188L382.4445 1045.2188"); }
+  52.381% { d: path("M138 1044L380.5 1044"); }
+  100% { d: path("M138 1044L380.5 1044"); }
+}
+
+@keyframes journal-8 {
+  0% { opacity: 0; }
+  38.0952% { opacity: 0; }
+  40.4762% { opacity: 0.0377; }
+  42.8571% { opacity: 0.1953; }
+  45.2381% { opacity: 0.4253; }
+  47.619% { opacity: 0.6718; }
+  50% { opacity: 0.8795; }
+  52.381% { opacity: 0.9928; }
+  54.7619% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+@keyframes journal-9 {
+  0% { transform: translate(0px, 12.000px); }
+  38.0952% { transform: translate(0px, 12.000px); }
+  40.4762% { transform: translate(0px, 11.548px); }
+  42.8571% { transform: translate(0px, 9.656px); }
+  45.2381% { transform: translate(0px, 6.897px); }
+  47.619% { transform: translate(0px, 3.938px); }
+  50% { transform: translate(0px, 1.446px); }
+  52.381% { transform: translate(0px, 0.087px); }
+  54.7619% { transform: translate(0px, 0.000px); }
+  100% { transform: translate(0px, 0.000px); }
+}
+
+@keyframes journal-10 {
+  0% { d: path("M88 387L88 387"); }
+  6.25% { d: path("M88 387L88 387"); }
+  8.3333% { d: path("M88 387L127.7802 387"); }
+  10.4167% { d: path("M88 387L226.4559 387"); }
+  12.5% { d: path("M88 387L353.0293 387"); }
+  14.5833% { d: path("M88 387L476.503 387"); }
+  16.6667% { d: path("M88 387L565.8794 387"); }
+  18.75% { d: path("M88 387L592 387"); }
+  100% { d: path("M88 387L592 387"); }
+}
+
+@keyframes journal-11 {
+  0% { opacity: 0; }
+  10.4167% { opacity: 0; }
+  12.5% { opacity: 0.0045; }
+  14.5833% { opacity: 0.14; }
+  16.6667% { opacity: 0.3977; }
+  18.75% { opacity: 0.687; }
+  20.8333% { opacity: 0.9176; }
+  22.9167% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+@keyframes journal-12 {
+  0% { opacity: 0; }
+  20.8333% { opacity: 0; }
+  22.9167% { opacity: 0.0343; }
+  25% { opacity: 0.2113; }
+  27.0833% { opacity: 0.4722; }
+  29.1667% { opacity: 0.7407; }
+  31.25% { opacity: 0.9407; }
+  33.3333% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+@keyframes journal-13 {
+  0% { opacity: 0; }
+  39.5833% { opacity: 0; }
+  41.6667% { opacity: 0.0443; }
+  43.75% { opacity: 0.1983; }
+  45.8333% { opacity: 0.417; }
+  47.9167% { opacity: 0.6526; }
+  50% { opacity: 0.8569; }
+  52.0833% { opacity: 0.9821; }
+  54.1667% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+@keyframes journal-14 {
+  0% { opacity: 0; }
+  7.1429% { opacity: 0; }
+  9.5238% { opacity: 0.0192; }
+  11.9048% { opacity: 0.1016; }
+  14.2857% { opacity: 0.2261; }
+  16.6667% { opacity: 0.3679; }
+  19.0476% { opacity: 0.5023; }
+  21.4286% { opacity: 0.6045; }
+  23.8095% { opacity: 0.6496; }
+  26.1905% { opacity: 0.65; }
+  100% { opacity: 0.65; }
+}
+
+@keyframes journal-15 {
+  0% { d: path("M992 1247L992 1247L992 1247Z"); }
+  23.8095% { d: path("M992 1247L992 1247L992 1247Z"); }
+  26.1905% { d: path("M991.8177 1247L992 1246.8319L991.8402 1246.8544Z"); }
+  28.5714% { d: path("M985.8794 1247L992 1241.3564L986.6346 1242.1115Z"); }
+  30.9524% { d: path("M972.9188 1247L992 1229.4056L975.273 1231.7598Z"); }
+  33.3333% { d: path("M954.7837 1247L992 1212.6837L959.3754 1217.2753Z"); }
+  35.7143% { d: path("M933.3223 1247L992 1192.8946L940.5618 1200.134Z"); }
+  38.0952% { d: path("M910.3825 1247L992 1171.7423L920.4522 1181.812Z"); }
+  40.4762% { d: path("M887.8122 1247L992 1150.9308L900.6666 1163.7851Z"); }
+  42.8571% { d: path("M867.4596 1247L992 1132.164L882.825 1147.5294Z"); }
+  45.2381% { d: path("M851.1725 1247L992 1117.1461L868.5474 1134.5209Z"); }
+  47.619% { d: path("M840.7991 1247L992 1107.581L859.4538 1126.2356Z"); }
+  50% { d: path("M838 1247L992 1105L857 1124Z"); }
+  100% { d: path("M838 1247L992 1105L857 1124Z"); }
+}
+
+@keyframes journal-16 {
+  0% { opacity: 0; }
+  38.0952% { opacity: 0; }
+  40.4762% { opacity: 0.0006; }
+  42.8571% { opacity: 0.07; }
+  45.2381% { opacity: 0.2272; }
+  47.619% { opacity: 0.434; }
+  50% { opacity: 0.6522; }
+  52.381% { opacity: 0.8438; }
+  54.7619% { opacity: 0.9704; }
+  57.1429% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+@keyframes journal-17 {
+  0% { opacity: 0.42; }
+  2.439% { opacity: 0.42; }
+  4.878% { opacity: 0.4196; }
+  7.3171% { opacity: 0.4079; }
+  9.7561% { opacity: 0.3816; }
+  12.1951% { opacity: 0.3441; }
+  14.6341% { opacity: 0.2983; }
+  17.0732% { opacity: 0.2472; }
+  19.5122% { opacity: 0.194; }
+  21.9512% { opacity: 0.1417; }
+  24.3902% { opacity: 0.0934; }
+  26.8293% { opacity: 0.0522; }
+  29.2683% { opacity: 0.0211; }
+  31.7073% { opacity: 0.0031; }
+  34.1463% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+@keyframes journal-18 {
+  0% { d: path("M90 637L90 637"); }
+  2.439% { d: path("M90 637L90 637"); }
+  4.878% { d: path("M90 637L90.1909 637"); }
+  7.3171% { d: path("M90 637L96.4786 637"); }
+  9.7561% { d: path("M90 637L110.4555 637"); }
+  12.1951% { d: path("M90 637L130.4855 637"); }
+  14.6341% { d: path("M90 637L154.9328 637"); }
+  17.0732% { d: path("M90 637L182.1613 637"); }
+  19.5122% { d: path("M90 637L210.535 637"); }
+  21.9512% { d: path("M90 637L238.4179 637"); }
+  24.3902% { d: path("M90 637L264.174 637"); }
+  26.8293% { d: path("M90 637L286.1673 637"); }
+  29.2683% { d: path("M90 637L302.7618 637"); }
+  31.7073% { d: path("M90 637L312.3215 637"); }
+  34.1463% { d: path("M90 637L314 637"); }
+  100% { d: path("M90 637L314 637"); }
+}
+
+@keyframes journal-19 {
+  0% { opacity: 0; }
+  9.7561% { opacity: 0; }
+  12.1951% { opacity: 0.0112; }
+  14.6341% { opacity: 0.1803; }
+  17.0732% { opacity: 0.4688; }
+  19.5122% { opacity: 0.7681; }
+  21.9512% { opacity: 0.9697; }
+  24.3902% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+@keyframes journal-20 {
+  0% { opacity: 0; }
+  19.5122% { opacity: 0; }
+  21.9512% { opacity: 0.0197; }
+  24.3902% { opacity: 0.2056; }
+  26.8293% { opacity: 0.5; }
+  29.2683% { opacity: 0.7944; }
+  31.7073% { opacity: 0.9803; }
+  34.1463% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+@keyframes journal-21 {
+  0% { opacity: 0; }
+  29.2683% { opacity: 0; }
+  31.7073% { opacity: 0.0303; }
+  34.1463% { opacity: 0.2319; }
+  36.5854% { opacity: 0.5312; }
+  39.0244% { opacity: 0.8197; }
+  41.4634% { opacity: 0.9888; }
+  43.9024% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+@keyframes journal-22 {
+  0% { opacity: 0; }
+  41.4634% { opacity: 0; }
+  43.9024% { opacity: 0.001; }
+  46.3415% { opacity: 0.104; }
+  48.7805% { opacity: 0.326; }
+  51.2195% { opacity: 0.5949; }
+  53.6585% { opacity: 0.8386; }
+  56.0976% { opacity: 0.9849; }
+  58.5366% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+@keyframes journal-23 {
+  0% { d: path("M438 704L438 704"); }
+  8.8889% { d: path("M438 704L438 704"); }
+  11.1111% { d: path("M438 704L446.9388 704"); }
+  13.3333% { d: path("M438 704L471.7906 704"); }
+  15.5556% { d: path("M438 704L509.6085 704"); }
+  17.7778% { d: path("M438 704L557.4458 704"); }
+  20% { d: path("M438 704L612.3555 704"); }
+  22.2222% { d: path("M438 704L671.3908 704"); }
+  24.4444% { d: path("M438 704L731.6049 704"); }
+  26.6667% { d: path("M438 704L790.0508 704"); }
+  28.8889% { d: path("M438 704L843.7817 704"); }
+  31.1111% { d: path("M438 704L889.8509 704"); }
+  33.3333% { d: path("M438 704L925.3114 704"); }
+  35.5556% { d: path("M438 704L947.2163 704"); }
+  37.7778% { d: path("M438 704L953 704"); }
+  100% { d: path("M438 704L953 704"); }
+}
+
+@keyframes journal-24 {
+  0% { opacity: 0; }
+  8.8889% { opacity: 0; }
+  11.1111% { opacity: 0.0174; }
+  13.3333% { opacity: 0.0656; }
+  15.5556% { opacity: 0.139; }
+  17.7778% { opacity: 0.2319; }
+  20% { opacity: 0.3386; }
+  22.2222% { opacity: 0.4532; }
+  24.4444% { opacity: 0.5701; }
+  26.6667% { opacity: 0.6836; }
+  28.8889% { opacity: 0.7879; }
+  31.1111% { opacity: 0.8774; }
+  33.3333% { opacity: 0.9462; }
+  35.5556% { opacity: 0.9888; }
+  37.7778% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+@keyframes journal-25 {
+  0% { opacity: 0; }
+  37.7778% { opacity: 0; }
+  40% { opacity: 0.0057; }
+  42.2222% { opacity: 0.0957; }
+  44.4444% { opacity: 0.2658; }
+  46.6667% { opacity: 0.4779; }
+  48.8889% { opacity: 0.6939; }
+  51.1111% { opacity: 0.8755; }
+  53.3333% { opacity: 0.9846; }
+  55.5556% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+@keyframes journal-26 {
+  0% { opacity: 0; }
+  13.0435% { opacity: 0; }
+  15.2174% { opacity: 0.032; }
+  17.3913% { opacity: 0.1983; }
+  19.5652% { opacity: 0.4465; }
+  21.7391% { opacity: 0.7085; }
+  23.913% { opacity: 0.9157; }
+  26.087% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+@keyframes journal-27 {
+  0% { transform: translate(0px, 28.000px); }
+  13.0435% { transform: translate(0px, 28.000px); }
+  15.2174% { transform: translate(0px, 27.105px); }
+  17.3913% { transform: translate(0px, 22.449px); }
+  19.5652% { transform: translate(0px, 15.497px); }
+  21.7391% { transform: translate(0px, 8.163px); }
+  23.913% { transform: translate(0px, 2.360px); }
+  26.087% { transform: translate(0px, 0.000px); }
+  100% { transform: translate(0px, 0.000px); }
+}
+
+@keyframes journal-28 {
+  0% { opacity: 0; }
+  26.087% { opacity: 0; }
+  28.2609% { opacity: 0.0009; }
+  30.4348% { opacity: 0.1006; }
+  32.6087% { opacity: 0.3164; }
+  34.7826% { opacity: 0.58; }
+  36.9565% { opacity: 0.8232; }
+  39.1304% { opacity: 0.9775; }
+  41.3043% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+@keyframes journal-29 {
+  0% { transform: translate(0px, 28.000px); }
+  26.087% { transform: translate(0px, 28.000px); }
+  28.2609% { transform: translate(0px, 27.974px); }
+  30.4348% { transform: translate(0px, 25.183px); }
+  32.6087% { transform: translate(0px, 19.141px); }
+  34.7826% { transform: translate(0px, 11.759px); }
+  36.9565% { transform: translate(0px, 4.951px); }
+  39.1304% { transform: translate(0px, 0.630px); }
+  41.3043% { transform: translate(0px, 0.000px); }
+  100% { transform: translate(0px, 0.000px); }
+}
+
+@keyframes journal-30 {
+  0% { opacity: 0; }
+  41.3043% { opacity: 0; }
+  43.4783% { opacity: 0.0619; }
+  45.6522% { opacity: 0.2198; }
+  47.8261% { opacity: 0.432; }
+  50% { opacity: 0.6567; }
+  52.1739% { opacity: 0.8522; }
+  54.3478% { opacity: 0.9767; }
+  56.5217% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+@keyframes journal-31 {
+  0% { d: path("M572 732h114l160 612H732Z"); }
+  4.4444% { d: path("M572 732h114l160 612H732Z"); }
+  6.6667% { d: path("M572.0288 732h114l160 612H732.0288Z"); }
+  8.8889% { d: path("M573.0083 732h114l160 612H733.0083Z"); }
+  11.1111% { d: path("M575.2942 732h114l160 612H735.2942Z"); }
+  13.3333% { d: path("M578.7687 732h114l160 612H738.7687Z"); }
+  15.5556% { d: path("M583.3142 732h114l160 612H743.3142Z"); }
+  17.7778% { d: path("M588.8129 732h114l160 612H748.8129Z"); }
+  20% { d: path("M595.1472 732h114l160 612H755.1472Z"); }
+  22.2222% { d: path("M602.1994 732h114l160 612H762.1994Z"); }
+  24.4444% { d: path("M609.8519 732h114l160 612H769.8519Z"); }
+  26.6667% { d: path("M617.9868 732h114l160 612H777.9868Z"); }
+  28.8889% { d: path("M626.4865 732h114l160 612H786.4865Z"); }
+  31.1111% { d: path("M635.2334 732h114l160 612H795.2334Z"); }
+  33.3333% { d: path("M644.1098 732h114l160 612H804.1098Z"); }
+  35.5556% { d: path("M652.9979 732h114l160 612H812.9979Z"); }
+  37.7778% { d: path("M661.7801 732h114l160 612H821.7801Z"); }
+  40% { d: path("M670.3387 732h114l160 612H830.3387Z"); }
+  42.2222% { d: path("M678.556 732h114l160 612H838.556Z"); }
+  44.4444% { d: path("M686.3143 732h114l160 612H846.3143Z"); }
+  46.6667% { d: path("M693.496 732h114l160 612H853.496Z"); }
+  48.8889% { d: path("M699.9833 732h114l160 612H859.9833Z"); }
+  51.1111% { d: path("M705.6585 732h114l160 612H865.6585Z"); }
+  53.3333% { d: path("M710.4041 732h114l160 612H870.4041Z"); }
+  55.5556% { d: path("M714.1022 732h114l160 612H874.1022Z"); }
+  57.7778% { d: path("M716.6352 732h114l160 612H876.6352Z"); }
+  60% { d: path("M717.8855 732h114l160 612H877.8855Z"); }
+  62.2222% { d: path("M718 732h114l160 612H878Z"); }
+  100% { d: path("M718 732h114l160 612H878Z"); }
+}
+
+@keyframes journal-32 {
+  0% { cx: 701px; }
+  4.4444% { cx: 701px; }
+  6.6667% { cx: 701.03px; }
+  8.8889% { cx: 702.0498px; }
+  11.1111% { cx: 704.4296px; }
+  13.3333% { cx: 708.0469px; }
+  15.5556% { cx: 712.7792px; }
+  17.7778% { cx: 718.5039px; }
+  20% { cx: 725.0985px; }
+  22.2222% { cx: 732.4405px; }
+  24.4444% { cx: 740.4074px; }
+  26.6667% { cx: 748.8766px; }
+  28.8889% { cx: 757.7257px; }
+  31.1111% { cx: 766.8321px; }
+  33.3333% { cx: 776.0732px; }
+  35.5556% { cx: 785.3266px; }
+  37.7778% { cx: 794.4697px; }
+  40% { cx: 803.38px; }
+  42.2222% { cx: 811.935px; }
+  44.4444% { cx: 820.0122px; }
+  46.6667% { cx: 827.489px; }
+  48.8889% { cx: 834.2429px; }
+  51.1111% { cx: 840.1514px; }
+  53.3333% { cx: 845.0919px; }
+  55.5556% { cx: 848.942px; }
+  57.7778% { cx: 851.5791px; }
+  60% { cx: 852.8807px; }
+  62.2222% { cx: 853px; }
+  100% { cx: 853px; }
+}
+
+@keyframes journal-33 {
+  0% { cy: 895px; }
+  4.4444% { cy: 895px; }
+  6.6667% { cy: 895.0193px; }
+  8.8889% { cy: 895.6768px; }
+  11.1111% { cy: 897.2112px; }
+  13.3333% { cy: 899.5434px; }
+  15.5556% { cy: 902.5945px; }
+  17.7778% { cy: 906.2854px; }
+  20% { cy: 910.5372px; }
+  22.2222% { cy: 915.2709px; }
+  24.4444% { cy: 920.4074px; }
+  26.6667% { cy: 925.8678px; }
+  28.8889% { cy: 931.5731px; }
+  31.1111% { cy: 937.4444px; }
+  33.3333% { cy: 943.4025px; }
+  35.5556% { cy: 949.3685px; }
+  37.7778% { cy: 955.2634px; }
+  40% { cy: 961.0082px; }
+  42.2222% { cy: 966.5239px; }
+  44.4444% { cy: 971.7315px; }
+  46.6667% { cy: 976.5521px; }
+  48.8889% { cy: 980.9066px; }
+  51.1111% { cy: 984.716px; }
+  53.3333% { cy: 987.9014px; }
+  55.5556% { cy: 990.3837px; }
+  57.7778% { cy: 992.0839px; }
+  60% { cy: 992.9231px; }
+  62.2222% { cy: 993px; }
+  100% { cy: 993px; }
+}
+
+@keyframes journal-34 {
+  0% { opacity: 0; }
+  37.7778% { opacity: 0; }
+  40% { opacity: 0.024; }
+  42.2222% { opacity: 0.1519; }
+  44.4444% { opacity: 0.352; }
+  46.6667% { opacity: 0.5805; }
+  48.8889% { opacity: 0.7936; }
+  51.1111% { opacity: 0.9478; }
+  53.3333% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+@keyframes journal-35 {
+  0% { opacity: 0; }
+  8.5106% { opacity: 0; }
+  10.6383% { opacity: 0.032; }
+  12.766% { opacity: 0.1983; }
+  14.8936% { opacity: 0.4465; }
+  17.0213% { opacity: 0.7085; }
+  19.1489% { opacity: 0.9157; }
+  21.2766% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+@keyframes journal-36 {
+  0% { transform: translate(0px, -135.000px); }
+  8.5106% { transform: translate(0px, -135.000px); }
+  10.6383% { transform: translate(0px, -130.683px); }
+  12.766% { transform: translate(0px, -108.236px); }
+  14.8936% { transform: translate(0px, -74.720px); }
+  17.0213% { transform: translate(0px, -39.359px); }
+  19.1489% { transform: translate(0px, -11.377px); }
+  21.2766% { transform: translate(0px, 0.000px); }
+  100% { transform: translate(0px, 0.000px); }
+}
+
+@keyframes journal-37 {
+  0% { opacity: 0; }
+  21.2766% { opacity: 0; }
+  23.4043% { opacity: 0.0554; }
+  25.5319% { opacity: 0.2435; }
+  27.6596% { opacity: 0.5; }
+  29.7872% { opacity: 0.7565; }
+  31.9149% { opacity: 0.9446; }
+  34.0426% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+@keyframes journal-38 {
+  0% { transform: translate(0px, -135.000px); }
+  21.2766% { transform: translate(0px, -135.000px); }
+  23.4043% { transform: translate(0px, -127.522px); }
+  25.5319% { transform: translate(0px, -102.123px); }
+  27.6596% { transform: translate(0px, -67.500px); }
+  29.7872% { transform: translate(0px, -32.877px); }
+  31.9149% { transform: translate(0px, -7.478px); }
+  34.0426% { transform: translate(0px, 0.000px); }
+  100% { transform: translate(0px, 0.000px); }
+}
+
+@keyframes journal-39 {
+  0% { opacity: 0; }
+  34.0426% { opacity: 0; }
+  36.1702% { opacity: 0.0146; }
+  38.2979% { opacity: 0.1563; }
+  40.4255% { opacity: 0.3936; }
+  42.5532% { opacity: 0.6583; }
+  44.6809% { opacity: 0.8819; }
+  46.8085% { opacity: 0.9963; }
+  48.9362% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+@keyframes journal-40 {
+  0% { transform: translate(0px, -135.000px); }
+  34.0426% { transform: translate(0px, -135.000px); }
+  36.1702% { transform: translate(0px, -133.032px); }
+  38.2979% { transform: translate(0px, -113.906px); }
+  40.4255% { transform: translate(0px, -81.866px); }
+  42.5532% { transform: translate(0px, -46.136px); }
+  44.6809% { transform: translate(0px, -15.940px); }
+  46.8085% { transform: translate(0px, -0.504px); }
+  48.9362% { transform: translate(0px, 0.000px); }
+  100% { transform: translate(0px, 0.000px); }
+}
+
+@keyframes journal-41 {
+  0% { opacity: 0; }
+  46.8085% { opacity: 0; }
+  48.9362% { opacity: 0.0168; }
+  51.0638% { opacity: 0.1352; }
+  53.1915% { opacity: 0.33; }
+  55.3191% { opacity: 0.5576; }
+  57.4468% { opacity: 0.7742; }
+  59.5745% { opacity: 0.9363; }
+  61.7021% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+@keyframes journal-42 {
+  0% { opacity: 0; }
+  8.5106% { opacity: 0; }
+  10.6383% { opacity: 0.0233; }
+  12.766% { opacity: 0.0872; }
+  14.8936% { opacity: 0.1826; }
+  17.0213% { opacity: 0.3005; }
+  19.1489% { opacity: 0.432; }
+  21.2766% { opacity: 0.568; }
+  23.4043% { opacity: 0.6995; }
+  25.5319% { opacity: 0.8174; }
+  27.6596% { opacity: 0.9128; }
+  29.7872% { opacity: 0.9767; }
+  31.9149% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+@keyframes journal-43 {
+  0% { transform: translate(0px, 70.000px); }
+  8.5106% { transform: translate(0px, 70.000px); }
+  10.6383% { transform: translate(0px, 68.370px); }
+  12.766% { transform: translate(0px, 63.899px); }
+  14.8936% { transform: translate(0px, 57.220px); }
+  17.0213% { transform: translate(0px, 48.963px); }
+  19.1489% { transform: translate(0px, 39.760px); }
+  21.2766% { transform: translate(0px, 30.240px); }
+  23.4043% { transform: translate(0px, 21.037px); }
+  25.5319% { transform: translate(0px, 12.780px); }
+  27.6596% { transform: translate(0px, 6.101px); }
+  29.7872% { transform: translate(0px, 1.630px); }
+  31.9149% { transform: translate(0px, 0.000px); }
+  100% { transform: translate(0px, 0.000px); }
+}
+
+@keyframes journal-44 {
+  0% { opacity: 0; }
+  31.9149% { opacity: 0; }
+  34.0426% { opacity: 0.0051; }
+  36.1702% { opacity: 0.086; }
+  38.2979% { opacity: 0.2409; }
+  40.4255% { opacity: 0.4376; }
+  42.5532% { opacity: 0.644; }
+  44.6809% { opacity: 0.8278; }
+  46.8085% { opacity: 0.957; }
+  48.9362% { opacity: 1; }
+  100% { opacity: 1; }
+}
