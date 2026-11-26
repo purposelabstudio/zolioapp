@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en" data-theme="olive">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<title>Page not found | Zolio</title>
+<script>
+const segments = location.pathname.split('/').filter(Boolean);
+const base = document.createElement('base');
+base.href = segments.length > 1 ? `/${encodeURIComponent(segments[0])}/` : '/';
+document.head.append(base);
+</script>
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="Zolio home">zolio</a>
+  <nav class="nav" aria-label="Main">
+    <a href="index.html">Home</a>
+    <a href="features.html">Features</a>
+    <a href="journal.html">Blog</a>
+  </nav>
+</header>
+<main class="page" id="main">
+  <div class="eyebrow">Zolio</div>
+  <h1 class="page-title">That page isn't here.</h1>
+  <p class="intro">The link may have changed. You can head back to the home page or explore the blog.</p>
+  <p><a class="text-link" href="index.html">Go to Zolio home</a> · <a class="text-link" href="journal.html">Read the blog</a></p>
+</main>
+</body>
+</html>
