@@ -1,0 +1,86 @@
+.carousel-grid {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 281px));
+  justify-content: center;
+  column-gap: clamp(22px, 5vw, 72px);
+}
+
+.carousel-phone {
+  position: relative;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  align-items: center;
+  aspect-ratio: 281 / 612;
+  padding: 28px 8px 18px;
+  border: 5px solid var(--ink);
+  border-radius: 26px;
+  background: var(--card);
+}
+
+.carousel-phone::before,
+.carousel-phone::after {
+  position: absolute;
+  inset-inline: 0;
+  margin-inline: auto;
+  border-radius: 2rem;
+  background: var(--ink);
+  content: "";
+}
+
+.carousel-phone::before { top: 8px; width: 52px; height: 6px; }
+.carousel-phone::after { bottom: 8px; width: 65px; height: 3px; }
+
+.carousel-phone-label {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: .35rem;
+  padding: 0 .45rem .45rem;
+  border-bottom: 1px solid var(--line);
+  color: #4b5445;
+  font-size: .75rem;
+}
+
+.carousel-phone-label strong { color: var(--ink); font: 400 1rem Georgia, serif; }
+.carousel-viewport { min-width: 0; }
+.carousel-viewport img { display: block; width: 100%; height: auto; background: var(--alt); }
+
+.carousel-pager {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr) 44px;
+  align-items: center;
+  gap: .45rem;
+  margin-top: .5rem;
+}
+
+.carousel-arrow {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 1px solid #bec8b6;
+  border-radius: 50%;
+  background: var(--card);
+  color: var(--ink);
+  touch-action: manipulation;
+}
+
+.carousel-arrow::after {
+  width: 8px;
+  height: 8px;
+  border: solid currentColor;
+  border-width: 0 2px 2px 0;
+  transform: translateX(-1px) rotate(-45deg);
+  content: "";
+}
+
+.carousel-arrow:first-child::after { transform: translateX(1px) rotate(135deg); }
+.carousel-arrow:hover:not([aria-disabled="true"]) { background: var(--alt); }
+.carousel-arrow[aria-disabled="true"] { color: #737e6d; cursor: default; }
+.carousel-arrow:focus-visible { outline-offset: 2px; }
+
+.carousel-progress { display: grid; justify-items: center; gap: .25rem; }
+.carousel-dots { display: flex; flex-wrap: wrap; justify-content: center; gap: 5px; }
+.carousel-dots span { width: 7px; height: 7px; border: 1px solid #717d68; border-radius: 50%; }
+.carousel-dots .is-current { border-color: #3d4c36; background: #3d4c36; }
+.carousel-position { margin: 0; color: #4b5445; font-size: .75rem; text-align: center; }
